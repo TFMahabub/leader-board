@@ -7,11 +7,11 @@ body{
   background-color: #F3F1FF;
 }
 #top_box{
-  width: 870px;
-  height: 680px;
+  width: 780px;
+  height: 670px;
   background-color: #fff;
   margin: 20px auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 32px;
   border-radius: 8px;
 }
@@ -63,12 +63,13 @@ body{
     grid-column-gap: 30px;
     border: 2px solid red;
     padding: 20px 0;
+    box-sizing: border-box;
   }
   .blog{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 385px;
+    width: 342px;
     height: 117px;
     border: 2px solid red;
   }
@@ -76,24 +77,24 @@ body{
     height: 113px;
   }
   .blog .text{
-    width: 190px;
+    width: 155px;
     height: 117px;
     border: 2px solid red;
     
   }
   .blog .text h3{
-    margin: 8px 0;
+    margin: 6px 0;
     font-family: poppins, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
   }
   .blog .text p{
     font-family: poppins, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #9F9F9F;
   }
   .blog .text p a{
     font-family: poppins, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     color: #562EFF;
     text-decoration: none;
   }
@@ -106,10 +107,50 @@ Course-section
 
   #Course-section{
     border-radius: 8px;
-    width: 870px;
+    width: 780px;
     height: 360px;
     background-color: #fff;
     margin: 20px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 32px;
+  }
+  .Lates_Course{
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    color: #562EFF;
+  }
+  .container{
+
+  }
+  .course_box{
+    width: 250px;
+    height: 270px;
+    border: 1px solid red;
+  }
+  .course_box_area{
+    width: 100%;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+  .course_box_area img{
+    width: 100%;
+    border: 1px solid red;
+  }
+  .title{
+    border: 1px solid red;
+    margin:  0;
+    font-family: poppins, sans-serif;
+  }
+  .title h3{
+    font-size: 18px;
+  }
+  .title a{
+    text-decoration: none;
+    color: #ED6B4F;
+    font-size: 15px;
+  }
+  .rating{
+    border: 1px solid red;
+
   }
