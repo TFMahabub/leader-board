@@ -238,7 +238,7 @@ Course-section
     width: 40%;
     height: 27px;
     border-radius: 30px;
-    padding: 6px;
+    padding: 12px 6px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
