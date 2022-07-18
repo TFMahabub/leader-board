@@ -236,9 +236,9 @@ Course-section
   /* -------------time-------------- */
   .time{
     width: 40%;
-    height: 27px;
+    height: 24px;
     border-radius: 30px;
-    padding: 12px 6px;
+    padding: 6px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
