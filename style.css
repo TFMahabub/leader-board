@@ -173,9 +173,9 @@ Course-section
     width: 225px;
     height: 230px;
     margin-top: 20px;
-    border-radius: 20px;
+    border-radius: 15px;
     padding: 10px;
-    box-shadow: 6px 6px 30px rgb(219, 219, 219);
+    box-shadow: 5px 5px 17px rgb(219, 219, 219);
     /* border: 1px solid red; */
   }
   .course_box_area{
