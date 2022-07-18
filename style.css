@@ -223,9 +223,11 @@ Course-section
   }
   .star p{
     font-family: poppins,sans-serif;
+    font-size: 15px;
   }
   .fa-solid{
     color: #FFC014;
+    font-size: 14px;
   }
   .fiveth_star{
     color: #AEAEAE;
