@@ -3,3 +3,42 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  background-color: #F3F1FF;
+}
+#top_box{
+  width: 870px;
+  height: 680px;
+  background-color: #fff;
+  margin: 20px auto;
+  border: 2px solid red;
+  padding: 32px;
+}
+.top_player {
+  font-size: 24px;
+  font-family: poppins, sans-serif;
+  color: #562EFF;
+}
+.players{
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 20px 0;
+}
+.player{
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.player img{
+  width: 56px;
+  height: 56px;
+}
+.info h2{
+  font-family: poppins;
+  font-size: 18px;
+  padding-left: -12px;
+}
