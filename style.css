@@ -126,7 +126,7 @@ top-box
     margin: 6px 0;
     font-family: poppins, sans-serif;
     font-size: 17px;
-    letter-spacing: .4px;
+    letter-spacing: .8px;
   }
   .blog .text p{
     font-family: poppins, sans-serif;
@@ -189,7 +189,7 @@ Course-section
   }
   .title h3{
     font-size: 17px;
-    letter-spacing: .4px;
+    letter-spacing: .6px;
   }
   .title a{
     text-decoration: none;
