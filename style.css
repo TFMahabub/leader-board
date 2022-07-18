@@ -21,7 +21,7 @@ body{
   color: #562EFF;
 }
 .players{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
@@ -30,7 +30,7 @@ body{
 }
 .player{
   display: flex;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   justify-content: space-evenly;
   align-items: center;
 }
@@ -40,8 +40,7 @@ body{
 }
 .info h2{
   font-family: poppins;
-  font-size: 18px;
-  padding-left: -12px;
+  font-size: 17px;
 }
 /* --------------------------- 
       2nd-section-Blog 
@@ -61,7 +60,7 @@ body{
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 20px;
     grid-column-gap: 30px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 20px 0;
     box-sizing: border-box;
   }
@@ -71,7 +70,7 @@ body{
     align-items: center;
     width: 342px;
     height: 117px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
   .blog img{
     height: 113px;
@@ -79,7 +78,7 @@ body{
   .blog .text{
     width: 155px;
     height: 117px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     
   }
   .blog .text h3{
@@ -108,7 +107,7 @@ Course-section
   #Course-section{
     border-radius: 8px;
     width: 780px;
-    height: 360px;
+    height: 370px;
     background-color: #fff;
     margin: 20px auto;
     /* border: 2px solid red; */
@@ -120,25 +119,29 @@ Course-section
     color: #562EFF;
   }
   .container{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .course_box{
-    width: 250px;
-    height: 270px;
-    border: 1px solid red;
+    width: 220px;
+    height: 240px;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* border: 1px solid red; */
   }
   .course_box_area{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
   }
   .course_box_area img{
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .title{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:  0;
     font-family: poppins, sans-serif;
   }
@@ -151,6 +154,45 @@ Course-section
     font-size: 15px;
   }
   .rating{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+  }
+  .star{
+    width: 60%;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+  .star p{
+    font-family: poppins,sans-serif;
+  }
+  .fa-solid{
+    color: #FFC014;
+  }
+  .fiveth_star{
+    color: #AEAEAE;
+  }
 
+  /* -------------time-------------- */
+  .time{
+    width: 40%;
+    height: 27px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: #FFE4E8;
+    
+  }
+  .time p{
+    font-family: poppins,sans-serif;
+    color: #FF4A60;
+  }
+  .time .fa-regular{
+    color: #FF4A60;
   }
